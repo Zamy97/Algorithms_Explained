@@ -1,0 +1,5 @@
+[run]
+include = algorithms_explained/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
