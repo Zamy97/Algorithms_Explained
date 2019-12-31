@@ -16,7 +16,7 @@ urlpatterns = [
     path("users/", include("algorithms_explained.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    path("", include("explain_algorithms.algo_explained.urls", namespace = "algorithms")),
+    path("", include("algorithms_explained.algo_explained.urls", namespace = "algorithms")),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
