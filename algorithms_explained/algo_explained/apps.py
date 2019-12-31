@@ -2,7 +2,7 @@ from django.apps import AppConfig
 
 
 class AlgoExplainedConfig(AppConfig):
-    name = 'algo_explained'
+    name = 'algorithms_explained.algo_explained'
 
     verbose_name = "Explain_Algo"
 
