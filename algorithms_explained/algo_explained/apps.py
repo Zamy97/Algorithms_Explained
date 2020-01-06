@@ -4,7 +4,7 @@ from django.apps import AppConfig
 class AlgoExplainedConfig(AppConfig):
     name = 'algorithms_explained.algo_explained'
 
-    verbose_name = "Explain_Algo"
+    verbose_name = "ALGORITHMS_EXPLAINED"
 
     def ready(self):
         try:
