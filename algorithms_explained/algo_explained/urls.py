@@ -1,9 +1,4 @@
 from django.urls import path
-# from explain_algorithms.algo_explained.views import (
-#     blog_index,
-#     blog_detail,
-#     blog_category,
-# )
 
 from . import views
 
